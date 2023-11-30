@@ -1,8 +1,8 @@
-a = int(input("Son kiriting: "))
-b = int(input("Son kiriting: "))
-if a == b:
-    s = a,b ** 2
+num1 = int(input("enter number: "))
+num2 = int(input("enter number again: "))
+if num1 == num2:
+    num3 = num2 ** 2
     print("True")
-    print(f"{a} sonni kvadrati {s}")
+    print(f"{num2}-ning kvadrati {num3}")
 else:
     print("False")
