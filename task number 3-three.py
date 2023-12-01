@@ -6,3 +6,4 @@ if num1 == num2:
     print(f"{num2}-ning kvadrati {num3}")
 else:
     print("False")
+
