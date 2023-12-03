@@ -1,9 +1,12 @@
-num1 = int(input("enter number: "))
-num2 = int(input("enter number again: "))
-if num1 == num2:
-    num3 = num2 ** 2
-    print("True")
-    print(f"{num2}-ning kvadrati {num3}")
-else:
-    print("False")
+a = int(input("Enter number: "))
 
+item = 0
+
+while item ** 2 <= a:
+    item += 1
+    if item ** 2 == a:
+        print(f"{item} kvadrati {a}")
+        print(True)
+        break
+else:
+    print(False)
